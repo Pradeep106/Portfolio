@@ -67,3 +67,8 @@
     @apply bg-background text-foreground;
   }
 }
+@layer components {
+  .center-flex-item {
+    @apply flex justify-center items-center;
+  }
+}
